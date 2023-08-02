@@ -1,0 +1,28 @@
+.primaryCard, .secondaryCard {
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: none;
+    width: 100%;
+    max-width: 800px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    p {
+        margin-top: 10px;
+        text-shadow: black 1px 2px;
+    }
+}
+
+.primaryCard {
+    background: rgb(176,89,192);
+    background: linear-gradient(128deg, rgba(176,89,192,1) 14%, rgba(245,45,124,1) 91%);
+    color: #fff;
+}
+
+.secondaryCard {
+    background: grey;
+    color: #0000;
+}
+
